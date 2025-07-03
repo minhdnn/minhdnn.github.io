@@ -6,11 +6,11 @@ Check it out live here: https://minhdnn.github.io
 
 
 🛠 Features
-Built with React
+- Built with React
 
-Deployed using GitHub Pages
+- Deployed using GitHub Pages
 
-Styled with custom CSS
+- Styled with custom CSS
 
-Optimized for performance with modern build tools
+- Optimized for performance with modern build tools
 
