@@ -1,7 +1,7 @@
 📦 My GitHub Pages App
 This is a simple web application built using React and custom CSS, deployed via GitHub Pages. It features a modern UI with custom scrollbar styling and responsive layout.
 
-🚀 Demo
+🚀 Live
 Check it out live here: https://minhdnn.github.io
 
 
