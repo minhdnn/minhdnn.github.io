@@ -1,4 +1,4 @@
-# 📦 My GitHub Pages App
+# 📦 My GitHub Pages
 This is a simple web application built using React and custom CSS, deployed via GitHub Pages. It features a modern UI with custom scrollbar styling and responsive layout.
 
 ## 🚀 Live
