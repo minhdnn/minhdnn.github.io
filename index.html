@@ -2,37 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.tailwindcss.com https://esm.sh; style-src 'self' https://fonts.googleapis.com 'unsafe-inline' data:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://fx-rate-app.onrender.com https://cors.eu.org; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none';">
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    <meta http-equiv="X-Frame-Options" content="DENY">
-    <meta name="referrer" content="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minh Do - Professional Profile & Utilities</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     
-    <script>
-      // This is a workaround because the original proxy (api.allorigins.win) is not working.
-      // It intercepts fetch requests for the gold price API and redirects them to a working proxy.
-      const originalFetch = window.fetch;
-      window.fetch = function(...args) {
-        const resource = args[0];
-        if (typeof resource === 'string' && resource.startsWith('https://api.allorigins.win/raw?url=')) {
-          try {
-            const encodedUrl = resource.substring('https://api.allorigins.win/raw?url='.length);
-            const decodedUrl = decodeURIComponent(encodedUrl);
-            args[0] = `https://cors.eu.org/${decodedUrl}`;
-          } catch (e) {
-            // Silently fail, let the original fetch handle the error
-            console.error('Failed to rewrite API URL, the request might fail.', e);
-          }
-        }
-        return originalFetch.apply(this, args);
-      };
-    </script>
+
     
     <script type="importmap">
 {
