@@ -232,7 +232,7 @@ If there was a way to let machines handle the repetitive weight, so people could
 
 💡 I’m not a software engineer. Just a finance guy who gets a bit tired of doing the same things over and over—and occasionally asks, "What if there’s a better way?"
 
-This site came from that question.
+These projects and tools came from that question.
 
 It’s not a portfolio, and it’s definitely not a polished product showcase. It’s more like a small corner where I keep the things I’ve tried—tiny tools, rough ideas, little experiments that started from everyday frustrations. 🛠️
 
